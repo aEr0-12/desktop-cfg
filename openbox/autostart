@@ -1,0 +1,39 @@
+#This is for the scree resulation fix.
+#xrandr --screen 0 -s 1360x768 
+
+# This is for the network to show up on systray.
+nm-applet &
+
+# This is for the audio applet within tint2 systray.
+pnmixer &
+
+# This is for fixing the brightness.
+xfce4-power-manager &
+
+# This is for fixing the audio
+amixer
+
+# For starting the tint2 pannel.
+tint2 &
+
+# Compton or Picom for transperancy
+picom &
+#compton &
+
+# Dunst for notification.
+dunst &
+
+# Nitrogen for wallpapers.
+nitrogen --restore &
+
+# Copyq for recording the copied text.
+copyq &
+
+# This is for the Ulauncher to launch.
+#env GDK_BACKEND=x11 /usr/bin/ulauncher --hide-window
+
+# This is for the audio control
+playerctl &
+
+# This is for polkit
+#/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
