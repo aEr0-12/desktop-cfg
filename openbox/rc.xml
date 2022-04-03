@@ -311,7 +311,7 @@
       <action name="Execute">
         <command>xfce4-appfinder</command>
       </action>
-    </keybind>    
+    </keybind>
     <keybind key="C-A-t">
       <action name="Execute">
         <command>kitty</command>
@@ -349,17 +349,17 @@
     </keybind>
     <keybind key="W-w">
       <action name="Execute">
-        <command>/opt/brave.com/brave/brave-browser --profile-directory=Default --app-id=hnpfjngllnobngcgfapefoaidbinmjnm</command>
+        <command>/usr/lib/brave-bin/brave --profile-directory=Default --app-id=hnpfjngllnobngcgfapefoaidbinmjnm</command>
       </action>
     </keybind>
     <keybind key="W-u">
       <action name="Execute">
-        <command>/opt/brave.com/brave/brave-browser --profile-directory=Default --app-id=kldmpcjjbeoiaocihajdbccdmmnefeop</command>
+        <command>/usr/lib/brave-bin/brave --profile-directory=Default --app-id=hbljllcmmjkcimmaacbkglecahfgenjd</command>
       </action>
     </keybind>
     <keybind key="W-v">
       <action name="Execute">
-        <command>/usr/share/code/code</command>
+        <command>code</command>
       </action>
     </keybind>
     <keybind key="W-j">
@@ -369,17 +369,17 @@
     </keybind>
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
-        <command>amixer -D pulse sset Master 5%+</command>
+        <command>amixer set Master 5+</command>
       </action>
     </keybind>
     <keybind key="XF86AudioLowerVolume">
       <action name="Execute">
-        <command>amixer -D pulse sset Master 5%-</command>
+        <command>amixer set Master 5-</command>
       </action>
     </keybind>
     <keybind key="XF86AudioMute">
       <action name="Execute">
-        <command>amixer -D pulse sset Master 100%-</command>
+        <command>amixer set Master 100-</command>
       </action>
     </keybind>
     <keybind key="XF86AudioPlay">

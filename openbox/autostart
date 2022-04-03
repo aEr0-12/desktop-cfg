@@ -13,12 +13,12 @@ xfce4-power-manager &
 # This is for fixing the audio
 amixer
 
+# Compton or Picom for transperancy
+picom --experimental-backends &
+#compton &
+
 # For starting the tint2 pannel.
 tint2 &
-
-# Compton or Picom for transperancy
-picom &
-#compton &
 
 # Dunst for notification.
 dunst &
@@ -36,4 +36,10 @@ copyq &
 playerctl &
 
 # This is for polkit
-#/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+/usr/bin/polkit-dumb-agent &
+
+# This is for automatically starting telegram at startup
+/home/aero/Downloads/Telegram/Telegram -workdir /home/aero/.local/share/TelegramDesktop/ -autostart &
+
+# This is for running the pamac services 
+pamac-tray --gapplication-service &
