@@ -5,7 +5,8 @@
 nm-applet &
 
 # This is for the audio applet within tint2 systray.
-pnmixer &
+# pnmixer &
+volctl &
 
 # This is for fixing the brightness.
 xfce4-power-manager &
@@ -39,7 +40,10 @@ playerctl &
 /usr/bin/polkit-dumb-agent &
 
 # This is for automatically starting telegram at startup
-/home/aero/Downloads/Telegram/Telegram -workdir /home/aero/.local/share/TelegramDesktop/ -autostart &
+/usr/bin/telegram-desktop -workdir /home/aero/.local/share/TelegramDesktop/ -autostart
 
 # This is for running the pamac services 
 pamac-tray --gapplication-service &
+
+#This is for changing the caps lock key to escape key
+.xmodmap ~/.Xmodmap
