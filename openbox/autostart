@@ -46,4 +46,4 @@ playerctl &
 pamac-tray --gapplication-service &
 
 #This is for changing the caps lock key to escape key
-.xmodmap ~/.Xmodmap
+xmodmap ~/.Xmodmap
