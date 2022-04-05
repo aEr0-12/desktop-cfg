@@ -1,3 +1,6 @@
+# To replace the capslock key to escape
+xmodmap /home/aero/.Xmodmap &
+
 #This is for the scree resulation fix.
 #xrandr --screen 0 -s 1360x768 
 
