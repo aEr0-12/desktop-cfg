@@ -43,7 +43,7 @@ playerctl &
 #/usr/bin/polkit-dumb-agent &
 
 # This is for automatically starting telegram at startup
-/usr/bin/telegram-desktop -workdir /home/aero/.local/share/TelegramDesktop/ -autostart
+/usr/bin/telegram-desktop -workdir /home/aero/.local/share/TelegramDesktop/ -autostart &
 
 # This is for running the pamac services 
 #pamac-tray --gapplication-service &
