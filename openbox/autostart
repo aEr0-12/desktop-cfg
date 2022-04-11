@@ -1,5 +1,5 @@
 # To replace the capslock key to escape
-#xmodmap /home/aero/.Xmodmap &
+xmodmap /home/aero/.Xmodmap &
 
 #This is for the scree resulation fix.
 #xrandr --screen 0 -s 1360x768 
@@ -9,7 +9,7 @@ nm-applet &
 
 # This is for the audio applet within tint2 systray.
 # pnmixer &
-#volctl &
+volctl &
 
 # This is for fixing the brightness.
 xfce4-power-manager &
@@ -18,7 +18,7 @@ xfce4-power-manager &
 amixer
 
 # Compton or Picom for transperancy
-#picom --experimental-backends &
+picom --experimental-backends &
 #compton &
 
 # For starting the tint2 pannel.
@@ -28,7 +28,7 @@ tint2 &
 dunst &
 
 # Nitrogen for wallpapers.
-#nitrogen --restore &
+nitrogen --restore &
 
 # Copyq for recording the copied text.
 copyq &
@@ -40,10 +40,10 @@ copyq &
 playerctl &
 
 # This is for polkit
-#/usr/bin/polkit-dumb-agent &
+/usr/bin/polkit-dumb-agent &
 
 # This is for automatically starting telegram at startup
 /usr/bin/telegram-desktop -workdir /home/aero/.local/share/TelegramDesktop/ -autostart &
 
 # This is for running the pamac services 
-#pamac-tray --gapplication-service &
+pamac-tray --gapplication-service &
