@@ -18,7 +18,7 @@ xfce4-power-manager &
 amixer
 
 # Compton or Picom for transperancy
-picom --experimental-backends &
+#picom --experimental-backends &
 #compton &
 
 # For starting the tint2 pannel.
