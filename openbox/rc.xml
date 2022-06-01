@@ -307,6 +307,11 @@
       </action>
     </keybind>
     <!-- Custom Keybindings for applaunch -->
+     <keybind key="W-n">
+      <action name="Execute">
+        <command>dunstctl history-pop</command>
+      </action>
+    </keybind>
     <keybind key="W-space">
       <action name="Execute">
         <command>xfce4-appfinder</command>
@@ -354,7 +359,7 @@
     </keybind>
     <keybind key="W-u">
       <action name="Execute">
-        <command>/usr/lib/brave-bin/brave --profile-directory=Default --app-id=hbljllcmmjkcimmaacbkglecahfgenjd</command>
+        <command>/usr/lib/brave-bin/brave --profile-directory=Default --app-id=kldmpcjjbeoiaocihajdbccdmmnefeop</command>
       </action>
     </keybind>
     <keybind key="W-v">
@@ -399,7 +404,7 @@
     </keybind>
     <keybind key="XF86Tools">
       <action name="Execute">
-        <command>/opt/brave.com/brave/brave-browser --profile-directory=Default --app-id=pjibgclleladliembfgfagdaldikeohf</command>
+        <command>/usr/lib/brave-bin/brave --profile-directory=Default --app-id=pjibgclleladliembfgfagdaldikeohf</command>
       </action>
     </keybind>
     <!-- Custom Keybindings for tiling -->
