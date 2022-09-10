@@ -365,7 +365,7 @@
     </keybind>
     <keybind key="W-v">
       <action name="Execute">
-        <command>code</command>
+        <command>copyq --start-server show</command>
       </action>
     </keybind>
     <keybind key="W-j">
@@ -491,6 +491,11 @@
     <keybind key="W-A-Right">
       <action name="Execute">
         <command>wmctrl -r :ACTIVE: -t 1</command>
+      </action>
+    </keybind>
+    <keybind key="W-A-Left">
+      <action name="Execute">
+        <command>wmctrl -r :ACTIVE: -t 0</command>
       </action>
     </keybind>
   </keyboard>
